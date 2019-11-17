@@ -32,7 +32,7 @@ carla_env file:
 - spect_cam: 
   - a kameraállás beállítása (12 méterrel az autó felett, felülnézetből)
 - start2: 
-  - kliens beállítása, város betöltése, megjelenítési és számítási beállítások, spawn pont beállítása
+  - kliens beállítása, város betöltése, megjelenítési és számítási beállítások, spawn pont beállítása, gyalogos észlelési távolságának random beállíása
 - kill:
   - actor-ok törlése
 - collevent:
@@ -81,6 +81,7 @@ carla_env file:
   - ha elütötte, akkor -100 -at
   - ha kikerülte és nem ütközött, akkor 100*cos(szöghiba)*szigmoid(sávhiba)
   - a szigmoid függvény 1-et ad, ha a sávhiba 0, és 0-t ad, ha nagy
+  - a "csalás": mivel tudom, hogy az út vektorának iránya (-1,0,0), és a gyalogos is fix helyen jelenik meg, csak az észlelési távolsága változik, ezért nem a gyalogoshoz viszonyítom az autó helyzetével kapcsolatos rewardokat, hanem az autó koordinátáit használom. 
   
   
 eddigi eredmények:
