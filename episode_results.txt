@@ -897,4 +897,4 @@ TOTAL REWARD @ 0-th Episode  : Reward 197.09225613282652 STEPS: 395 AVOIDED PEDE
 TOTAL REWARD @ 1-th Episode  : Reward 315.38168766798435 STEPS: 311 AVOIDED PEDESTRIAN      92.38155125406301
 TOTAL REWARD @ 2-th Episode  : Reward 148.62082632264864 STEPS: 370 AVOIDED PEDESTRIAN      2.675624219316827
 TOTAL REWARD @ 3-th Episode  : Reward 149.83227645960397 STEPS: 352 STOPPED, BUT PASSED!
-                                                                                         
+�����������������������������������������������������������������������������������������
